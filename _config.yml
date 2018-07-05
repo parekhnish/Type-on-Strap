@@ -1,27 +1,27 @@
 # SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
-url: "https://sylhare.github.io"
-title: Type on Strap # site's title
-description: "A website with blog posts and pages" # used by search engines
+baseurl: ""
+url: "https://parekhnish.github.io"
+title: "Nishit Parekh's Website" # site's title
+description: "Visions, Vibratos and Vocabulary" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type on Strap # blog's title
+  title: Nishit Parekh # blog's title
   avatar: assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>Change header text in <code>_config.yml</code> <br> to update this feature.</p>
+    <h2>Welcome to my small nook in the large expanse of the World Wide Web</h2>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Icons
-  rss: true  # Make sure you created a feed.xml with feed.xml layout
+  rss: false  # Make sure you created a feed.xml with feed.xml layout
   email_address: # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
@@ -29,13 +29,13 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "sylhare"
+  github: "parekhnish"
   google_plus:
   instagram:
   keybase:
   linkedin:  # Full URL
   pinterest:
-  reddit:
+  reddit: "parekhnish"
   soundcloud:
   stack_exchange:  # Full URL
   steam:
@@ -79,11 +79,11 @@ theme_settings:
   str_email: "Email"
   str_tweet: "Tweet"
   str_pin_it: "Pin it"
-  str_next_post: "Next post"
-  str_previous_post: "Previous post"
-  str_next_page: "Next"
-  str_previous_page: "Prev"
-  str_continue_reading: "Continue reading"
+  str_next_post: "What was after this?"
+  str_previous_post: "What was before this?"
+  str_next_page: "March ahead!"
+  str_previous_page: "Wait! A step back, please"
+  str_continue_reading: "Keep the words flowing!"
   str_javascript_required_disqus: "Please enable JavaScript to view comments."
 
   # Colours, typography and padding

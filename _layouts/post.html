@@ -9,6 +9,11 @@ layout: default
     {% if page.author %} - {{ page.author }}{% endif %}
     </p>
   </header>
+
+  <!-- Tag list -->
+ {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
+ {% include tags_list.html tags=tag_list %}
+ 
   <section class="post-content">
   {% if page.bootstrap %}
   <div class="bootstrap-iso">
@@ -22,9 +27,6 @@ layout: default
   <!-- Social media shares -->
   {% include share_buttons.html %}
    
-   <!-- Tag list -->
-  {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
-  {% include tags_list.html tags=tag_list %}
     
 </article>
 
